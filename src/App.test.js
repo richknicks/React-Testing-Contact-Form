@@ -11,5 +11,5 @@ import App from "./App";
 // });
 test('concise test - renders contact form header', () => {
   const {getByText } = render(<App />);
-  getByText(/first name/i);
+  getByText(/First Name/i);
 });
